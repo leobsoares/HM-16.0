@@ -24,7 +24,7 @@
 // 6- etaII_adder
 // 7- etaIV_adder
 // 8- zeros
-#define APPSATD4 8 
+#define APPSATD4 0 
 
 //defines the approximation parameter k
 // 1- one bit (or coefficients)
