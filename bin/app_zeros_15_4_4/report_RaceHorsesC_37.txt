@@ -21,7 +21,7 @@ Min PCM size                      : 8
 Motion search range               : 64
 Intra period                      : 32
 Decoding refresh type             : 1
-QP                                : 32.00
+QP                                : 37.00
 Max dQP signaling depth           : 0
 Cb QP Offset                      : 0
 Cr QP Offset                      : 0
@@ -64,26 +64,26 @@ RExt Non-environment-variable-controlled macros set as follows:
                    Input ChromaFormatIDC =   4:2:0
        Output (internal) ChromaFormatIDC =   4:2:0
 
-POC    0 TId: 0 ( I-SLICE, nQP 32 QP 32 )     234736 bits [Y 35.2833 dB    U 38.2119 dB    V 39.5146 dB] [ET     3 ] [L0 ] [L1 ]
-POC    8 TId: 0 ( B-SLICE, nQP 33 QP 33 )     144440 bits [Y 34.3929 dB    U 37.7013 dB    V 38.8758 dB] [ET    11 ] [L0 0 ] [L1 0 ]
-POC    4 TId: 0 ( B-SLICE, nQP 34 QP 34 )      44456 bits [Y 32.3912 dB    U 36.7446 dB    V 37.7978 dB] [ET     9 ] [L0 0 8 ] [L1 8 0 ]
-POC    2 TId: 0 ( B-SLICE, nQP 35 QP 35 )      26768 bits [Y 32.1723 dB    U 36.9487 dB    V 38.1795 dB] [ET    11 ] [L0 0 4 ] [L1 4 8 ]
-POC    1 TId: 1 ( B-SLICE, nQP 36 QP 36 )       9080 bits [Y 31.4799 dB    U 36.8750 dB    V 38.2209 dB] [ET     6 ] [L0 0 2 ] [L1 2 4 ]
-POC    3 TId: 1 ( B-SLICE, nQP 36 QP 36 )       7728 bits [Y 31.2700 dB    U 36.6777 dB    V 37.7974 dB] [ET     8 ] [L0 2 0 ] [L1 4 8 ]
-POC    6 TId: 0 ( B-SLICE, nQP 35 QP 35 )      24968 bits [Y 32.2737 dB    U 36.8893 dB    V 38.0502 dB] [ET     9 ] [L0 4 2 ] [L1 8 4 ]
-POC    5 TId: 1 ( B-SLICE, nQP 36 QP 36 )       7672 bits [Y 31.4331 dB    U 36.7418 dB    V 37.9327 dB] [ET     8 ] [L0 4 0 ] [L1 6 8 ]
-POC    7 TId: 1 ( B-SLICE, nQP 36 QP 36 )       7528 bits [Y 31.5973 dB    U 36.7651 dB    V 38.1009 dB] [ET     6 ] [L0 6 4 ] [L1 8 6 ]
-POC    9 TId: 1 ( B-SLICE, nQP 36 QP 36 )      11784 bits [Y 31.1222 dB    U 36.6134 dB    V 37.5799 dB] [ET     5 ] [L0 8 ] [L1 8 ]
+POC    0 TId: 0 ( I-SLICE, nQP 37 QP 37 )     129040 bits [Y 31.8287 dB    U 36.7190 dB    V 37.9209 dB] [ET     2 ] [L0 ] [L1 ]
+POC    8 TId: 0 ( B-SLICE, nQP 38 QP 38 )      73208 bits [Y 31.1021 dB    U 36.2384 dB    V 37.2413 dB] [ET     9 ] [L0 0 ] [L1 0 ]
+POC    4 TId: 0 ( B-SLICE, nQP 39 QP 39 )      19784 bits [Y 29.4838 dB    U 35.5059 dB    V 36.4617 dB] [ET     8 ] [L0 0 8 ] [L1 8 0 ]
+POC    2 TId: 0 ( B-SLICE, nQP 40 QP 40 )      12232 bits [Y 29.4256 dB    U 35.7385 dB    V 36.8944 dB] [ET     8 ] [L0 0 4 ] [L1 4 8 ]
+POC    1 TId: 1 ( B-SLICE, nQP 41 QP 41 )       4288 bits [Y 29.1174 dB    U 35.7899 dB    V 37.0425 dB] [ET     6 ] [L0 0 2 ] [L1 2 4 ]
+POC    3 TId: 1 ( B-SLICE, nQP 41 QP 41 )       4128 bits [Y 28.8421 dB    U 35.5600 dB    V 36.6353 dB] [ET     7 ] [L0 2 0 ] [L1 4 8 ]
+POC    6 TId: 0 ( B-SLICE, nQP 40 QP 40 )      11512 bits [Y 29.5163 dB    U 35.6297 dB    V 36.6547 dB] [ET     7 ] [L0 4 2 ] [L1 8 4 ]
+POC    5 TId: 1 ( B-SLICE, nQP 41 QP 41 )       3696 bits [Y 28.9251 dB    U 35.5037 dB    V 36.6800 dB] [ET     7 ] [L0 4 0 ] [L1 6 8 ]
+POC    7 TId: 1 ( B-SLICE, nQP 41 QP 41 )       3344 bits [Y 29.1225 dB    U 35.6105 dB    V 36.7563 dB] [ET     5 ] [L0 6 4 ] [L1 8 6 ]
+POC    9 TId: 1 ( B-SLICE, nQP 41 QP 41 )       5448 bits [Y 28.7036 dB    U 35.3812 dB    V 36.1901 dB] [ET     4 ] [L0 8 ] [L1 8 ]
 
 
 SUMMARY --------------------------------------------------------
 	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR 
-	       10    a    1557.4800   32.3416   37.0169   38.2050   33.3366
+	       10    a     800.0400   29.6067   35.7677   36.8477   30.8318
 
 
 I Slices--------------------------------------------------------
 	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR 
-	        1    i    7042.0800   35.2833   38.2119   39.5146   36.1745
+	        1    i    3871.2000   31.8287   36.7190   37.9209   33.0108
 
 
 P Slices--------------------------------------------------------
@@ -93,9 +93,9 @@ P Slices--------------------------------------------------------
 
 B Slices--------------------------------------------------------
 	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR 
-	        9    b     948.0800   32.0148   36.8841   38.0595   33.1110
+	        9    b     458.8000   29.3598   35.6620   36.7285   30.6455
 
 RVM: 0.000
-Bytes written to file: 64946 (1558.704 kbps)
+Bytes written to file: 33386 (801.264 kbps)
 
- Total Time:       76.210 sec.
+ Total Time:       62.620 sec.
