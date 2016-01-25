@@ -2,7 +2,7 @@ import os
 import sys
 import re
 
-VideoList = ['RaceHorsesC']
+VideoList = ['Traffic']
 AppList = ['nosatd4/', 'app_zeros_1_4_4/', 'app_zeros_2_4_4/', 'app_zeros_3_4_4/', 'app_zeros_4_4_4/', 'app_zeros_5_4_4/', 'app_zeros_6_4_4/', 'app_zeros_7_4_4/', 'app_zeros_8_4_4/', 'app_zeros_9_4_4/', 'app_zeros_10_4_4/', 'app_zeros_11_4_4/', 'app_zeros_12_4_4/', 'app_zeros_13_4_4/', 'app_zeros_14_4_4/', 'app_zeros_15_4_4/']
 QPList = ['22', '27', '32', '37']
 NFrames = sys.argv[1]
