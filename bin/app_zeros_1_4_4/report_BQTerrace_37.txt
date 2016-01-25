@@ -67,12 +67,12 @@ RExt Non-environment-variable-controlled macros set as follows:
 POC    0 TId: 0 ( I-SLICE, nQP 37 QP 37 )     561280 bits [Y 32.0832 dB    U 38.2113 dB    V 40.3691 dB] [ET    12 ] [L0 ] [L1 ]
 POC    8 TId: 0 ( B-SLICE, nQP 38 QP 38 )      76872 bits [Y 31.6117 dB    U 38.1841 dB    V 40.4015 dB] [ET    23 ] [L0 0 ] [L1 0 ]
 POC    4 TId: 0 ( B-SLICE, nQP 39 QP 39 )       7048 bits [Y 31.2096 dB    U 38.2223 dB    V 40.4063 dB] [ET    23 ] [L0 0 8 ] [L1 8 0 ]
-POC    2 TId: 0 ( B-SLICE, nQP 40 QP 40 )       3304 bits [Y 31.3247 dB    U 38.2134 dB    V 40.3890 dB] [ET    24 ] [L0 0 4 ] [L1 4 8 ]
-POC    1 TId: 1 ( B-SLICE, nQP 41 QP 41 )        480 bits [Y 31.3575 dB    U 38.2051 dB    V 40.3723 dB] [ET    23 ] [L0 0 2 ] [L1 2 4 ]
+POC    2 TId: 0 ( B-SLICE, nQP 40 QP 40 )       3304 bits [Y 31.3247 dB    U 38.2134 dB    V 40.3890 dB] [ET    26 ] [L0 0 4 ] [L1 4 8 ]
+POC    1 TId: 1 ( B-SLICE, nQP 41 QP 41 )        480 bits [Y 31.3575 dB    U 38.2051 dB    V 40.3723 dB] [ET    30 ] [L0 0 2 ] [L1 2 4 ]
 POC    3 TId: 1 ( B-SLICE, nQP 41 QP 41 )        528 bits [Y 31.1566 dB    U 38.2121 dB    V 40.3801 dB] [ET    26 ] [L0 2 0 ] [L1 4 8 ]
 POC    6 TId: 0 ( B-SLICE, nQP 40 QP 40 )       3288 bits [Y 31.3124 dB    U 38.1817 dB    V 40.4089 dB] [ET    25 ] [L0 4 2 ] [L1 8 4 ]
 POC    5 TId: 1 ( B-SLICE, nQP 41 QP 41 )        344 bits [Y 31.2181 dB    U 38.1955 dB    V 40.3927 dB] [ET    25 ] [L0 4 0 ] [L1 6 8 ]
-POC    7 TId: 1 ( B-SLICE, nQP 41 QP 41 )        448 bits [Y 31.2799 dB    U 38.1942 dB    V 40.4052 dB] [ET    22 ] [L0 6 4 ] [L1 8 6 ]
+POC    7 TId: 1 ( B-SLICE, nQP 41 QP 41 )        448 bits [Y 31.2799 dB    U 38.1942 dB    V 40.4052 dB] [ET    23 ] [L0 6 4 ] [L1 8 6 ]
 POC    9 TId: 1 ( B-SLICE, nQP 41 QP 41 )       1072 bits [Y 31.0497 dB    U 38.1735 dB    V 40.3996 dB] [ET    15 ] [L0 8 ] [L1 8 ]
 
 
@@ -98,4 +98,4 @@ B Slices--------------------------------------------------------
 RVM: 0.000
 Bytes written to file: 81884 (3930.432 kbps)
 
- Total Time:      218.090 sec.
+ Total Time:      229.460 sec.

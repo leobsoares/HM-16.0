@@ -68,12 +68,12 @@ POC    0 TId: 0 ( I-SLICE, nQP 37 QP 37 )     128648 bits [Y 31.8265 dB    U 36.
 POC    8 TId: 0 ( B-SLICE, nQP 38 QP 38 )      72128 bits [Y 31.1274 dB    U 36.3116 dB    V 37.3897 dB] [ET     9 ] [L0 0 ] [L1 0 ]
 POC    4 TId: 0 ( B-SLICE, nQP 39 QP 39 )      19376 bits [Y 29.5252 dB    U 35.5827 dB    V 36.5189 dB] [ET     8 ] [L0 0 8 ] [L1 8 0 ]
 POC    2 TId: 0 ( B-SLICE, nQP 40 QP 40 )      12496 bits [Y 29.5292 dB    U 35.7985 dB    V 36.9661 dB] [ET     8 ] [L0 0 4 ] [L1 4 8 ]
-POC    1 TId: 1 ( B-SLICE, nQP 41 QP 41 )       4336 bits [Y 29.1774 dB    U 35.7504 dB    V 37.1639 dB] [ET     6 ] [L0 0 2 ] [L1 2 4 ]
-POC    3 TId: 1 ( B-SLICE, nQP 41 QP 41 )       3944 bits [Y 28.8565 dB    U 35.5929 dB    V 36.5965 dB] [ET     7 ] [L0 2 0 ] [L1 4 8 ]
-POC    6 TId: 0 ( B-SLICE, nQP 40 QP 40 )      10976 bits [Y 29.5303 dB    U 35.6686 dB    V 36.8314 dB] [ET     8 ] [L0 4 2 ] [L1 8 4 ]
-POC    5 TId: 1 ( B-SLICE, nQP 41 QP 41 )       3608 bits [Y 28.9262 dB    U 35.5767 dB    V 36.7129 dB] [ET     7 ] [L0 4 0 ] [L1 6 8 ]
-POC    7 TId: 1 ( B-SLICE, nQP 41 QP 41 )       3440 bits [Y 29.1253 dB    U 35.7125 dB    V 36.9199 dB] [ET     6 ] [L0 6 4 ] [L1 8 6 ]
-POC    9 TId: 1 ( B-SLICE, nQP 41 QP 41 )       5768 bits [Y 28.7863 dB    U 35.4612 dB    V 36.3265 dB] [ET     4 ] [L0 8 ] [L1 8 ]
+POC    1 TId: 1 ( B-SLICE, nQP 41 QP 41 )       4336 bits [Y 29.1774 dB    U 35.7504 dB    V 37.1639 dB] [ET     8 ] [L0 0 2 ] [L1 2 4 ]
+POC    3 TId: 1 ( B-SLICE, nQP 41 QP 41 )       3944 bits [Y 28.8565 dB    U 35.5929 dB    V 36.5965 dB] [ET    13 ] [L0 2 0 ] [L1 4 8 ]
+POC    6 TId: 0 ( B-SLICE, nQP 40 QP 40 )      10976 bits [Y 29.5303 dB    U 35.6686 dB    V 36.8314 dB] [ET    14 ] [L0 4 2 ] [L1 8 4 ]
+POC    5 TId: 1 ( B-SLICE, nQP 41 QP 41 )       3608 bits [Y 28.9262 dB    U 35.5767 dB    V 36.7129 dB] [ET    13 ] [L0 4 0 ] [L1 6 8 ]
+POC    7 TId: 1 ( B-SLICE, nQP 41 QP 41 )       3440 bits [Y 29.1253 dB    U 35.7125 dB    V 36.9199 dB] [ET    10 ] [L0 6 4 ] [L1 8 6 ]
+POC    9 TId: 1 ( B-SLICE, nQP 41 QP 41 )       5768 bits [Y 28.7863 dB    U 35.4612 dB    V 36.3265 dB] [ET     7 ] [L0 8 ] [L1 8 ]
 
 
 SUMMARY --------------------------------------------------------
@@ -98,4 +98,4 @@ B Slices--------------------------------------------------------
 RVM: 0.000
 Bytes written to file: 33141 (795.384 kbps)
 
- Total Time:       62.980 sec.
+ Total Time:       92.470 sec.

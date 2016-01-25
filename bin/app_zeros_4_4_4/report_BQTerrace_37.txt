@@ -68,7 +68,7 @@ POC    0 TId: 0 ( I-SLICE, nQP 37 QP 37 )     560552 bits [Y 32.0903 dB    U 38.
 POC    8 TId: 0 ( B-SLICE, nQP 38 QP 38 )      77768 bits [Y 31.6182 dB    U 38.1626 dB    V 40.3748 dB] [ET    23 ] [L0 0 ] [L1 0 ]
 POC    4 TId: 0 ( B-SLICE, nQP 39 QP 39 )       6592 bits [Y 31.2255 dB    U 38.1883 dB    V 40.3831 dB] [ET    23 ] [L0 0 8 ] [L1 8 0 ]
 POC    2 TId: 0 ( B-SLICE, nQP 40 QP 40 )       3248 bits [Y 31.3367 dB    U 38.1884 dB    V 40.3487 dB] [ET    24 ] [L0 0 4 ] [L1 4 8 ]
-POC    1 TId: 1 ( B-SLICE, nQP 41 QP 41 )        360 bits [Y 31.3527 dB    U 38.1756 dB    V 40.3359 dB] [ET    22 ] [L0 0 2 ] [L1 2 4 ]
+POC    1 TId: 1 ( B-SLICE, nQP 41 QP 41 )        360 bits [Y 31.3527 dB    U 38.1756 dB    V 40.3359 dB] [ET    23 ] [L0 0 2 ] [L1 2 4 ]
 POC    3 TId: 1 ( B-SLICE, nQP 41 QP 41 )        480 bits [Y 31.1642 dB    U 38.1870 dB    V 40.3474 dB] [ET    26 ] [L0 2 0 ] [L1 4 8 ]
 POC    6 TId: 0 ( B-SLICE, nQP 40 QP 40 )       3472 bits [Y 31.3446 dB    U 38.1642 dB    V 40.3760 dB] [ET    25 ] [L0 4 2 ] [L1 8 4 ]
 POC    5 TId: 1 ( B-SLICE, nQP 41 QP 41 )        464 bits [Y 31.2235 dB    U 38.1682 dB    V 40.3716 dB] [ET    25 ] [L0 4 0 ] [L1 6 8 ]
@@ -98,4 +98,4 @@ B Slices--------------------------------------------------------
 RVM: 0.000
 Bytes written to file: 81868 (3929.664 kbps)
 
- Total Time:      217.760 sec.
+ Total Time:      220.070 sec.

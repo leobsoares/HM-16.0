@@ -64,15 +64,15 @@ RExt Non-environment-variable-controlled macros set as follows:
                    Input ChromaFormatIDC =   4:2:0
        Output (internal) ChromaFormatIDC =   4:2:0
 
-POC    0 TId: 0 ( I-SLICE, nQP 27 QP 27 )    1839144 bits [Y 38.4898 dB    U 41.1082 dB    V 42.8890 dB] [ET    15 ] [L0 ] [L1 ]
-POC    8 TId: 0 ( B-SLICE, nQP 28 QP 28 )     856792 bits [Y 37.4010 dB    U 40.7948 dB    V 42.7324 dB] [ET    48 ] [L0 0 ] [L1 0 ]
+POC    0 TId: 0 ( I-SLICE, nQP 27 QP 27 )    1839144 bits [Y 38.4898 dB    U 41.1082 dB    V 42.8890 dB] [ET    16 ] [L0 ] [L1 ]
+POC    8 TId: 0 ( B-SLICE, nQP 28 QP 28 )     856792 bits [Y 37.4010 dB    U 40.7948 dB    V 42.7324 dB] [ET    49 ] [L0 0 ] [L1 0 ]
 POC    4 TId: 0 ( B-SLICE, nQP 29 QP 29 )     156640 bits [Y 35.2975 dB    U 40.6562 dB    V 42.6472 dB] [ET    35 ] [L0 0 8 ] [L1 8 0 ]
 POC    2 TId: 0 ( B-SLICE, nQP 30 QP 30 )      57224 bits [Y 35.1866 dB    U 40.7064 dB    V 42.6892 dB] [ET    30 ] [L0 0 4 ] [L1 4 8 ]
 POC    1 TId: 1 ( B-SLICE, nQP 31 QP 31 )      11440 bits [Y 34.8921 dB    U 40.7277 dB    V 42.6842 dB] [ET    25 ] [L0 0 2 ] [L1 2 4 ]
 POC    3 TId: 1 ( B-SLICE, nQP 31 QP 31 )      11152 bits [Y 34.7559 dB    U 40.6379 dB    V 42.6440 dB] [ET    30 ] [L0 2 0 ] [L1 4 8 ]
 POC    6 TId: 0 ( B-SLICE, nQP 30 QP 30 )      83336 bits [Y 35.1078 dB    U 40.5821 dB    V 42.6307 dB] [ET    35 ] [L0 4 2 ] [L1 8 4 ]
 POC    5 TId: 1 ( B-SLICE, nQP 31 QP 31 )       8544 bits [Y 34.8024 dB    U 40.5721 dB    V 42.5891 dB] [ET    29 ] [L0 4 0 ] [L1 6 8 ]
-POC    7 TId: 1 ( B-SLICE, nQP 31 QP 31 )       9568 bits [Y 34.7903 dB    U 40.6031 dB    V 42.6310 dB] [ET    26 ] [L0 6 4 ] [L1 8 6 ]
+POC    7 TId: 1 ( B-SLICE, nQP 31 QP 31 )       9568 bits [Y 34.7903 dB    U 40.6031 dB    V 42.6310 dB] [ET    27 ] [L0 6 4 ] [L1 8 6 ]
 POC    9 TId: 1 ( B-SLICE, nQP 31 QP 31 )      21920 bits [Y 34.1894 dB    U 40.6100 dB    V 42.6318 dB] [ET    18 ] [L0 8 ] [L1 8 ]
 
 
@@ -98,4 +98,4 @@ B Slices--------------------------------------------------------
 RVM: 0.000
 Bytes written to file: 382021 (18337.008 kbps)
 
- Total Time:      292.100 sec.
+ Total Time:      295.040 sec.

@@ -66,14 +66,14 @@ RExt Non-environment-variable-controlled macros set as follows:
 
 POC    0 TId: 0 ( I-SLICE, nQP 32 QP 32 )     235728 bits [Y 35.3296 dB    U 38.2060 dB    V 39.5851 dB] [ET     3 ] [L0 ] [L1 ]
 POC    8 TId: 0 ( B-SLICE, nQP 33 QP 33 )     144552 bits [Y 34.4580 dB    U 37.6804 dB    V 38.9129 dB] [ET    11 ] [L0 0 ] [L1 0 ]
-POC    4 TId: 0 ( B-SLICE, nQP 34 QP 34 )      44576 bits [Y 32.4468 dB    U 36.6327 dB    V 37.8013 dB] [ET     9 ] [L0 0 8 ] [L1 8 0 ]
+POC    4 TId: 0 ( B-SLICE, nQP 34 QP 34 )      44576 bits [Y 32.4468 dB    U 36.6327 dB    V 37.8013 dB] [ET    10 ] [L0 0 8 ] [L1 8 0 ]
 POC    2 TId: 0 ( B-SLICE, nQP 35 QP 35 )      25768 bits [Y 32.1752 dB    U 36.9650 dB    V 38.2524 dB] [ET     9 ] [L0 0 4 ] [L1 4 8 ]
-POC    1 TId: 1 ( B-SLICE, nQP 36 QP 36 )       8760 bits [Y 31.4826 dB    U 36.8459 dB    V 38.2732 dB] [ET     6 ] [L0 0 2 ] [L1 2 4 ]
+POC    1 TId: 1 ( B-SLICE, nQP 36 QP 36 )       8760 bits [Y 31.4826 dB    U 36.8459 dB    V 38.2732 dB] [ET     7 ] [L0 0 2 ] [L1 2 4 ]
 POC    3 TId: 1 ( B-SLICE, nQP 36 QP 36 )       7848 bits [Y 31.2929 dB    U 36.6215 dB    V 37.8955 dB] [ET     8 ] [L0 2 0 ] [L1 4 8 ]
 POC    6 TId: 0 ( B-SLICE, nQP 35 QP 35 )      24544 bits [Y 32.2844 dB    U 36.9020 dB    V 38.1190 dB] [ET     9 ] [L0 4 2 ] [L1 8 4 ]
 POC    5 TId: 1 ( B-SLICE, nQP 36 QP 36 )       7560 bits [Y 31.4536 dB    U 36.7284 dB    V 37.9038 dB] [ET     8 ] [L0 4 0 ] [L1 6 8 ]
 POC    7 TId: 1 ( B-SLICE, nQP 36 QP 36 )       7464 bits [Y 31.6156 dB    U 36.8601 dB    V 38.1240 dB] [ET     6 ] [L0 6 4 ] [L1 8 6 ]
-POC    9 TId: 1 ( B-SLICE, nQP 36 QP 36 )      11600 bits [Y 31.1153 dB    U 36.4370 dB    V 37.4802 dB] [ET     4 ] [L0 8 ] [L1 8 ]
+POC    9 TId: 1 ( B-SLICE, nQP 36 QP 36 )      11600 bits [Y 31.1153 dB    U 36.4370 dB    V 37.4802 dB] [ET     5 ] [L0 8 ] [L1 8 ]
 
 
 SUMMARY --------------------------------------------------------
@@ -98,4 +98,4 @@ B Slices--------------------------------------------------------
 RVM: 0.000
 Bytes written to file: 64851 (1556.424 kbps)
 
- Total Time:       74.030 sec.
+ Total Time:       75.820 sec.

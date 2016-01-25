@@ -64,14 +64,14 @@ RExt Non-environment-variable-controlled macros set as follows:
                    Input ChromaFormatIDC =   4:2:0
        Output (internal) ChromaFormatIDC =   4:2:0
 
-POC    0 TId: 0 ( I-SLICE, nQP 22 QP 22 )     635840 bits [Y 42.7167 dB    U 43.7647 dB    V 44.3876 dB] [ET     3 ] [L0 ] [L1 ]
-POC    8 TId: 0 ( B-SLICE, nQP 23 QP 23 )     485304 bits [Y 41.7715 dB    U 42.9037 dB    V 43.6694 dB] [ET    16 ] [L0 0 ] [L1 0 ]
+POC    0 TId: 0 ( I-SLICE, nQP 22 QP 22 )     635840 bits [Y 42.7167 dB    U 43.7647 dB    V 44.3876 dB] [ET     4 ] [L0 ] [L1 ]
+POC    8 TId: 0 ( B-SLICE, nQP 23 QP 23 )     485304 bits [Y 41.7715 dB    U 42.9037 dB    V 43.6694 dB] [ET    17 ] [L0 0 ] [L1 0 ]
 POC    4 TId: 0 ( B-SLICE, nQP 24 QP 24 )     297696 bits [Y 40.2381 dB    U 41.5959 dB    V 42.6711 dB] [ET    16 ] [L0 0 8 ] [L1 8 0 ]
-POC    2 TId: 0 ( B-SLICE, nQP 25 QP 25 )     197080 bits [Y 39.1868 dB    U 41.1478 dB    V 42.2814 dB] [ET    15 ] [L0 0 4 ] [L1 4 8 ]
-POC    1 TId: 1 ( B-SLICE, nQP 26 QP 26 )      66656 bits [Y 36.7396 dB    U 40.2325 dB    V 41.4871 dB] [ET    10 ] [L0 0 2 ] [L1 2 4 ]
+POC    2 TId: 0 ( B-SLICE, nQP 25 QP 25 )     197080 bits [Y 39.1868 dB    U 41.1478 dB    V 42.2814 dB] [ET    16 ] [L0 0 4 ] [L1 4 8 ]
+POC    1 TId: 1 ( B-SLICE, nQP 26 QP 26 )      66656 bits [Y 36.7396 dB    U 40.2325 dB    V 41.4871 dB] [ET    11 ] [L0 0 2 ] [L1 2 4 ]
 POC    3 TId: 1 ( B-SLICE, nQP 26 QP 26 )      58272 bits [Y 36.9444 dB    U 40.4315 dB    V 41.6449 dB] [ET    12 ] [L0 2 0 ] [L1 4 8 ]
 POC    6 TId: 0 ( B-SLICE, nQP 25 QP 25 )     181504 bits [Y 39.2337 dB    U 41.2628 dB    V 42.3046 dB] [ET    15 ] [L0 4 2 ] [L1 8 4 ]
-POC    5 TId: 1 ( B-SLICE, nQP 26 QP 26 )      56040 bits [Y 37.0557 dB    U 40.5122 dB    V 41.7505 dB] [ET    11 ] [L0 4 0 ] [L1 6 8 ]
+POC    5 TId: 1 ( B-SLICE, nQP 26 QP 26 )      56040 bits [Y 37.0557 dB    U 40.5122 dB    V 41.7505 dB] [ET    12 ] [L0 4 0 ] [L1 6 8 ]
 POC    7 TId: 1 ( B-SLICE, nQP 26 QP 26 )      58416 bits [Y 36.9588 dB    U 40.4938 dB    V 41.6291 dB] [ET    10 ] [L0 6 4 ] [L1 8 6 ]
 POC    9 TId: 1 ( B-SLICE, nQP 26 QP 26 )      88720 bits [Y 36.6368 dB    U 40.0258 dB    V 41.2345 dB] [ET     8 ] [L0 8 ] [L1 8 ]
 
@@ -98,4 +98,4 @@ B Slices--------------------------------------------------------
 RVM: 0.000
 Bytes written to file: 265742 (6377.808 kbps)
 
- Total Time:      116.490 sec.
+ Total Time:      121.630 sec.

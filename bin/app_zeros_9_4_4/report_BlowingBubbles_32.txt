@@ -98,4 +98,4 @@ B Slices--------------------------------------------------------
 RVM: 0.000
 Bytes written to file: 14131 (565.240 kbps)
 
- Total Time:       12.670 sec.
+ Total Time:       13.770 sec.

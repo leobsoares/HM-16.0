@@ -67,7 +67,7 @@ RExt Non-environment-variable-controlled macros set as follows:
 POC    0 TId: 0 ( I-SLICE, nQP 32 QP 32 )      72256 bits [Y 34.1347 dB    U 37.2959 dB    V 38.9297 dB] [ET     1 ] [L0 ] [L1 ]
 POC    8 TId: 0 ( B-SLICE, nQP 33 QP 33 )      26760 bits [Y 33.2303 dB    U 37.1335 dB    V 38.6029 dB] [ET     2 ] [L0 0 ] [L1 0 ]
 POC    4 TId: 0 ( B-SLICE, nQP 34 QP 34 )       4944 bits [Y 32.3120 dB    U 36.9775 dB    V 38.5995 dB] [ET     2 ] [L0 0 8 ] [L1 8 0 ]
-POC    2 TId: 0 ( B-SLICE, nQP 35 QP 35 )       3392 bits [Y 32.4371 dB    U 37.0431 dB    V 38.6949 dB] [ET     1 ] [L0 0 4 ] [L1 4 8 ]
+POC    2 TId: 0 ( B-SLICE, nQP 35 QP 35 )       3392 bits [Y 32.4371 dB    U 37.0431 dB    V 38.6949 dB] [ET     2 ] [L0 0 4 ] [L1 4 8 ]
 POC    1 TId: 1 ( B-SLICE, nQP 36 QP 36 )        880 bits [Y 32.6480 dB    U 36.9187 dB    V 38.7621 dB] [ET     1 ] [L0 0 2 ] [L1 2 4 ]
 POC    3 TId: 1 ( B-SLICE, nQP 36 QP 36 )        832 bits [Y 31.8769 dB    U 36.8396 dB    V 38.5365 dB] [ET     1 ] [L0 2 0 ] [L1 4 8 ]
 POC    6 TId: 0 ( B-SLICE, nQP 35 QP 35 )       2200 bits [Y 32.2119 dB    U 36.9525 dB    V 38.4228 dB] [ET     1 ] [L0 4 2 ] [L1 8 4 ]
@@ -98,4 +98,4 @@ B Slices--------------------------------------------------------
 RVM: 0.000
 Bytes written to file: 14216 (568.640 kbps)
 
- Total Time:       12.610 sec.
+ Total Time:       13.230 sec.

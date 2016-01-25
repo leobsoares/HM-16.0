@@ -65,7 +65,7 @@ RExt Non-environment-variable-controlled macros set as follows:
        Output (internal) ChromaFormatIDC =   4:2:0
 
 POC    0 TId: 0 ( I-SLICE, nQP 22 QP 22 )    3267064 bits [Y 43.3460 dB    U 43.4884 dB    V 44.9299 dB] [ET    18 ] [L0 ] [L1 ]
-POC    8 TId: 0 ( B-SLICE, nQP 23 QP 23 )    2098880 bits [Y 41.7726 dB    U 42.8477 dB    V 44.5284 dB] [ET    66 ] [L0 0 ] [L1 0 ]
+POC    8 TId: 0 ( B-SLICE, nQP 23 QP 23 )    2098880 bits [Y 41.7726 dB    U 42.8477 dB    V 44.5284 dB] [ET    67 ] [L0 0 ] [L1 0 ]
 POC    4 TId: 0 ( B-SLICE, nQP 24 QP 24 )    1251208 bits [Y 39.8026 dB    U 42.1922 dB    V 44.2131 dB] [ET    62 ] [L0 0 8 ] [L1 8 0 ]
 POC    2 TId: 0 ( B-SLICE, nQP 25 QP 25 )     795320 bits [Y 38.6872 dB    U 42.1606 dB    V 44.2454 dB] [ET    57 ] [L0 0 4 ] [L1 4 8 ]
 POC    1 TId: 1 ( B-SLICE, nQP 26 QP 26 )      80472 bits [Y 36.0524 dB    U 42.1767 dB    V 44.2105 dB] [ET    34 ] [L0 0 2 ] [L1 2 4 ]
@@ -98,4 +98,4 @@ B Slices--------------------------------------------------------
 RVM: 0.000
 Bytes written to file: 1101722 (52882.656 kbps)
 
- Total Time:      437.160 sec.
+ Total Time:      437.140 sec.
