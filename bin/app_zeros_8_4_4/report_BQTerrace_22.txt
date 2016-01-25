@@ -67,3 +67,4 @@ RExt Non-environment-variable-controlled macros set as follows:
 POC    0 TId: 0 ( I-SLICE, nQP 22 QP 22 )    3266832 bits [Y 43.3442 dB    U 43.4876 dB    V 44.9305 dB] [ET    18 ] [L0 ] [L1 ]
 POC    8 TId: 0 ( B-SLICE, nQP 23 QP 23 )    2105408 bits [Y 41.7736 dB    U 42.8390 dB    V 44.5236 dB] [ET    66 ] [L0 0 ] [L1 0 ]
 POC    4 TId: 0 ( B-SLICE, nQP 24 QP 24 )    1253576 bits [Y 39.8150 dB    U 42.2009 dB    V 44.2229 dB] [ET    61 ] [L0 0 8 ] [L1 8 0 ]
+POC    2 TId: 0 ( B-SLICE, nQP 25 QP 25 )     793456 bits [Y 38.6736 dB    U 42.1565 dB    V 44.2495 dB] [ET    56 ] [L0 0 4 ] [L1 4 8 ]
