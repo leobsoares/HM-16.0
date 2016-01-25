@@ -67,3 +67,35 @@ RExt Non-environment-variable-controlled macros set as follows:
 POC    0 TId: 0 ( I-SLICE, nQP 22 QP 22 )    3264120 bits [Y 43.3394 dB    U 43.4830 dB    V 44.9290 dB] [ET    18 ] [L0 ] [L1 ]
 POC    8 TId: 0 ( B-SLICE, nQP 23 QP 23 )    2098656 bits [Y 41.7739 dB    U 42.8658 dB    V 44.5302 dB] [ET    64 ] [L0 0 ] [L1 0 ]
 POC    4 TId: 0 ( B-SLICE, nQP 24 QP 24 )    1252968 bits [Y 39.8040 dB    U 42.2052 dB    V 44.2253 dB] [ET    61 ] [L0 0 8 ] [L1 8 0 ]
+POC    2 TId: 0 ( B-SLICE, nQP 25 QP 25 )     790584 bits [Y 38.6696 dB    U 42.1584 dB    V 44.2537 dB] [ET    56 ] [L0 0 4 ] [L1 4 8 ]
+POC    1 TId: 1 ( B-SLICE, nQP 26 QP 26 )      81192 bits [Y 36.0551 dB    U 42.1814 dB    V 44.2158 dB] [ET    32 ] [L0 0 2 ] [L1 2 4 ]
+POC    3 TId: 1 ( B-SLICE, nQP 26 QP 26 )      86888 bits [Y 36.0522 dB    U 42.0179 dB    V 44.1111 dB] [ET    37 ] [L0 2 0 ] [L1 4 8 ]
+POC    6 TId: 0 ( B-SLICE, nQP 25 QP 25 )     863608 bits [Y 38.6957 dB    U 42.0209 dB    V 44.1239 dB] [ET    57 ] [L0 4 2 ] [L1 8 4 ]
+POC    5 TId: 1 ( B-SLICE, nQP 26 QP 26 )      71296 bits [Y 36.0743 dB    U 41.9779 dB    V 44.0614 dB] [ET    36 ] [L0 4 0 ] [L1 6 8 ]
+POC    7 TId: 1 ( B-SLICE, nQP 26 QP 26 )      83536 bits [Y 36.0311 dB    U 42.0452 dB    V 44.1138 dB] [ET    33 ] [L0 6 4 ] [L1 8 6 ]
+POC    9 TId: 1 ( B-SLICE, nQP 26 QP 26 )     208224 bits [Y 35.6229 dB    U 41.9682 dB    V 44.0813 dB] [ET    30 ] [L0 8 ] [L1 8 ]
+
+
+SUMMARY --------------------------------------------------------
+	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR 
+	       10    a   52806.4320   38.2118   42.2924   44.2645   38.7574
+
+
+I Slices--------------------------------------------------------
+	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR 
+	        1    i  195847.2000   43.3394   43.4830   44.9290   43.5920
+
+
+P Slices--------------------------------------------------------
+	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR 
+	        0    p         -nan      -nan      -nan      -nan      -nan
+
+
+B Slices--------------------------------------------------------
+	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR 
+	        9    b   36913.0133   37.6421   42.1601   44.1907   38.4448
+
+RVM: 0.000
+Bytes written to file: 1100185 (52808.880 kbps)
+
+ Total Time:      424.270 sec.
