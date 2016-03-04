@@ -14,6 +14,11 @@
 #ifndef __APPCOMP__
 #define __APPCOMP__
 
+//defines when using SATD4
+// 0- using SATD4
+// 1- not using SATD4
+#define NOSATD4 0
+
 //defines the type of approximation
 // 0- no approximation
 // 1- trunc_adder

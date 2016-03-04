@@ -37,6 +37,8 @@
 
 #include <math.h>
 #include <assert.h>
+#include <iostream>
+#include <fstream>
 #include "TComRom.h"
 #include "TComRdCost.h"
 #include "AppComp.h"
@@ -1411,8 +1413,12 @@ Distortion TComRdCost::xCalcHADs4x4( Pel *piOrg, Pel *piCur, Int iStrideOrg, Int
   Int k;
   Distortion satd = 0;
   TCoeff diff[16], m[16], d[16];
+ //ofstream coefficients;
 
   assert( iStep == 1 );
+  
+  //coefficients.open("/home/leo/HM-16.0/bin/coefficients.txt",ios::out|ios::app);
+  
   for( k = 0; k < 16; k+=4 )
   {
     diff[k+0] = piOrg[0] - piCur[0];
@@ -1492,13 +1498,20 @@ Distortion TComRdCost::xCalcHADs4x4( Pel *piOrg, Pel *piCur, Int iStrideOrg, Int
   d[13] = m[12] - m[13];
   d[14] = m[14] + m[15];
   d[15] = m[15] - m[14];
+  
+  //coefficients << d[0] << " " << d[4] << " " << d[8] << " " << d[12] << "\n";
+  //coefficients << d[1] << " " << d[5] << " " << d[9] << " " << d[13] << "\n";
+  //coefficients << d[2] << " " << d[6] << " " << d[10] << " " << d[14] << "\n";
+  //coefficients << d[3] << " " << d[7] << " " << d[11] << " " << d[15] << "\n";
 
   for (k=0; k<16; ++k)
   {
     satd += abs(d[k]);
   }
   satd = ((satd+1)>>1);
-
+  
+  //coefficients.close();
+  
   return satd;
 }
 
@@ -1641,8 +1654,8 @@ Distortion TComRdCost::xCalcHADs4x4( Pel *piOrg, Pel *piCur, Int iStrideOrg, Int
   d[10] = m[10] + m[11];
   d[11] = 0;
   d[12] = m[12] + m[13];
-  d[13] = m[12] - m[13];
-  d[14] = 0;
+  d[13] = 0;
+  d[14] = m[14] + m[15];
   d[15] = 0;
   
 #elif KSATD4 == 4
@@ -1660,8 +1673,8 @@ Distortion TComRdCost::xCalcHADs4x4( Pel *piOrg, Pel *piCur, Int iStrideOrg, Int
   d[10] = m[10] + m[11];
   d[11] = 0;
   d[12] = m[12] + m[13];
-  d[13] = m[12] - m[13];
-  d[14] = 0;
+  d[13] = 0;
+  d[14] = m[14] + m[15];
   d[15] = 0;
   
 #elif KSATD4 == 5
@@ -1675,12 +1688,12 @@ Distortion TComRdCost::xCalcHADs4x4( Pel *piOrg, Pel *piCur, Int iStrideOrg, Int
   d[ 6] = m[ 6] + m[ 7];
   d[ 7] = 0;
   d[ 8] = m[ 8] + m[ 9];
-  d[ 9] = m[ 8] - m[ 9];
-  d[10] = 0;
+  d[ 9] = 0;
+  d[10] = m[10] + m[11];
   d[11] = 0;
   d[12] = m[12] + m[13];
-  d[13] = m[12] - m[13];
-  d[14] = 0;
+  d[13] = 0;
+  d[14] = m[14] + m[15];
   d[15] = 0;
   
 #elif KSATD4 == 6
@@ -1694,8 +1707,8 @@ Distortion TComRdCost::xCalcHADs4x4( Pel *piOrg, Pel *piCur, Int iStrideOrg, Int
   d[ 6] = m[ 6] + m[ 7];
   d[ 7] = 0;
   d[ 8] = m[ 8] + m[ 9];
-  d[ 9] = m[ 8] - m[ 9];
-  d[10] = 0;
+  d[ 9] = 0;
+  d[10] = m[10] + m[11];
   d[11] = 0;
   d[12] = m[12] + m[13];
   d[13] = 0;
@@ -1707,13 +1720,13 @@ Distortion TComRdCost::xCalcHADs4x4( Pel *piOrg, Pel *piCur, Int iStrideOrg, Int
   d[ 0] = m[ 0] + m[ 1];
   d[ 1] = m[ 0] - m[ 1];
   d[ 2] = m[ 2] + m[ 3];
-  d[ 3] = 0;
+  d[ 3] = m[ 3] - m[ 2];
   d[ 4] = m[ 4] + m[ 5];
   d[ 5] = m[ 4] - m[ 5];
   d[ 6] = m[ 6] + m[ 7];
   d[ 7] = 0;
   d[ 8] = m[ 8] + m[ 9];
-  d[ 9] = m[ 8] - m[ 9];
+  d[ 9] = 0;
   d[10] = 0;
   d[11] = 0;
   d[12] = m[12] + m[13];
@@ -1726,13 +1739,13 @@ Distortion TComRdCost::xCalcHADs4x4( Pel *piOrg, Pel *piCur, Int iStrideOrg, Int
   d[ 0] = m[ 0] + m[ 1];
   d[ 1] = m[ 0] - m[ 1];
   d[ 2] = m[ 2] + m[ 3];
-  d[ 3] = 0;
+  d[ 3] = m[ 3] - m[ 2];
   d[ 4] = m[ 4] + m[ 5];
-  d[ 5] = m[ 4] - m[ 5];
-  d[ 6] = 0;
+  d[ 5] = 0;
+  d[ 6] = m[ 6] + m[ 7];
   d[ 7] = 0;
   d[ 8] = m[ 8] + m[ 9];
-  d[ 9] = m[ 8] - m[ 9];
+  d[ 9] = 0;
   d[10] = 0;
   d[11] = 0;
   d[12] = m[12] + m[13];
@@ -1745,16 +1758,16 @@ Distortion TComRdCost::xCalcHADs4x4( Pel *piOrg, Pel *piCur, Int iStrideOrg, Int
   d[ 0] = m[ 0] + m[ 1];
   d[ 1] = m[ 0] - m[ 1];
   d[ 2] = m[ 2] + m[ 3];
-  d[ 3] = 0;
+  d[ 3] = m[ 3] - m[ 2];
   d[ 4] = m[ 4] + m[ 5];
-  d[ 5] = m[ 4] - m[ 5];
-  d[ 6] = 0;
+  d[ 5] = 0;
+  d[ 6] = m[ 6] + m[ 7];
   d[ 7] = 0;
   d[ 8] = m[ 8] + m[ 9];
   d[ 9] = 0;
   d[10] = 0;
   d[11] = 0;
-  d[12] = m[12] + m[13];
+  d[12] = 0;
   d[13] = 0;
   d[14] = 0;
   d[15] = 0;
@@ -1766,8 +1779,8 @@ Distortion TComRdCost::xCalcHADs4x4( Pel *piOrg, Pel *piCur, Int iStrideOrg, Int
   d[ 2] = m[ 2] + m[ 3];
   d[ 3] = 0;
   d[ 4] = m[ 4] + m[ 5];
-  d[ 5] = m[ 4] - m[ 5];
-  d[ 6] = 0;
+  d[ 5] = 0;
+  d[ 6] = m[ 6] + m[ 7];
   d[ 7] = 0;
   d[ 8] = m[ 8] + m[ 9];
   d[ 9] = 0;
@@ -1782,10 +1795,10 @@ Distortion TComRdCost::xCalcHADs4x4( Pel *piOrg, Pel *piCur, Int iStrideOrg, Int
   
   d[ 0] = m[ 0] + m[ 1];
   d[ 1] = m[ 0] - m[ 1];
-  d[ 2] = 0;
+  d[ 2] = m[ 2] + m[ 3];
   d[ 3] = 0;
   d[ 4] = m[ 4] + m[ 5];
-  d[ 5] = m[ 4] - m[ 5];
+  d[ 5] = 0;
   d[ 6] = 0;
   d[ 7] = 0;
   d[ 8] = m[ 8] + m[ 9];
@@ -1801,13 +1814,13 @@ Distortion TComRdCost::xCalcHADs4x4( Pel *piOrg, Pel *piCur, Int iStrideOrg, Int
   
   d[ 0] = m[ 0] + m[ 1];
   d[ 1] = m[ 0] - m[ 1];
-  d[ 2] = 0;
+  d[ 2] = m[ 2] + m[ 3];
   d[ 3] = 0;
   d[ 4] = m[ 4] + m[ 5];
   d[ 5] = 0;
   d[ 6] = 0;
   d[ 7] = 0;
-  d[ 8] = m[ 8] + m[ 9];
+  d[ 8] = 0;
   d[ 9] = 0;
   d[10] = 0;
   d[11] = 0;
@@ -1819,8 +1832,8 @@ Distortion TComRdCost::xCalcHADs4x4( Pel *piOrg, Pel *piCur, Int iStrideOrg, Int
 #elif KSATD4 == 13
   
   d[ 0] = m[ 0] + m[ 1];
-  d[ 1] = m[ 0] - m[ 1];
-  d[ 2] = 0;
+  d[ 1] = 0;
+  d[ 2] = m[ 2] + m[ 3];
   d[ 3] = 0;
   d[ 4] = m[ 4] + m[ 5];
   d[ 5] = 0;
@@ -1839,9 +1852,9 @@ Distortion TComRdCost::xCalcHADs4x4( Pel *piOrg, Pel *piCur, Int iStrideOrg, Int
   
   d[ 0] = m[ 0] + m[ 1];
   d[ 1] = 0;
-  d[ 2] = 0;
+  d[ 2] = m[ 2] + m[ 3];
   d[ 3] = 0;
-  d[ 4] = m[ 4] + m[ 5];
+  d[ 4] = 0;
   d[ 5] = 0;
   d[ 6] = 0;
   d[ 7] = 0;
@@ -2017,6 +2030,10 @@ Distortion TComRdCost::xGetHADs( DistParam* pcDtParam )
   }
   else if( ( iRows % 4 == 0) && (iCols % 4 == 0) )
   {
+      
+#if NOSATD4 == 1
+    uiSum = xGetSAD4( pcDtParam );
+#else
     Int  iOffsetOrg = iStrideOrg<<2;
     Int  iOffsetCur = iStrideCur<<2;
 
@@ -2029,6 +2046,7 @@ Distortion TComRdCost::xGetHADs( DistParam* pcDtParam )
       piOrg += iOffsetOrg;
       piCur += iOffsetCur;
     }
+#endif
   }
   else if( ( iRows % 2 == 0) && (iCols % 2 == 0) )
   {
